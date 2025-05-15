@@ -2,7 +2,7 @@ class Matrix3 {
     double[] values;
     Matrix3(double[] values) {
         this.values = values;
-    }
+    }//constructor
     Matrix3 multiply(Matrix3 other) {
         double[] result = new double[9];
         for (int row = 0; row < 3; row++) {
